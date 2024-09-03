@@ -1,7 +1,7 @@
 // Expanded arrays of fictional data to construct UAP events
 const locations = {
     "United States": ["Roswell, New Mexico", "Area 51, Nevada", "Pine Bush, New York", "The Mojave Desert, California", "Devil's Tower, Wyoming", "Sedona, Arizona", "Mount Shasta, California", "Lake Tahoe, Nevada", "Yellowstone National Park, Wyoming", "Yosemite National Park, California"],
-    "England": ["Stonehenge, England", "Glastonbury Tor, England", "Avebury, England", "Lake District, England", "Cornwall, England", "Yorkshire Moors, England"],
+    "England": ["Salisbury, England", "Somerset, England", "Avebury, England", "The Lake District, England", "Cornwall, England", "Yorkshire Moors, England"],
     "Scotland": ["Loch Ness, Scotland", "Edinburgh, Scotland", "Isle of Skye, Scotland", "Cairngorms National Park, Scotland", "Stirling, Scotland", "Outer Hebrides, Scotland"],
     "Germany": ["The Black Forest, Germany", "Neuschwanstein Castle, Germany", "Bavarian Alps, Germany", "Rothenburg ob der Tauber, Germany", "Brandenburg, Germany"],
     "Japan": ["Mount Fuji, Japan", "Aokigahara Forest, Japan", "Okinawa, Japan", "Shirakawa-go, Japan", "Hokkaido, Japan"],
@@ -33,51 +33,51 @@ const weatherConditions = {
         "under clear skies", "during a heavy rainstorm", "on a foggy morning"
     ],
     "afternoon": [
-        "under clear skies", "during a thunderstorm", "on a hot, sunny day", "on a windy afternoon"
+        "under clear skies", "during a thunderstorm", "on a warm, sunny day", "on a windy afternoon"
     ],
     "evening": [
-        "under a sky filled with ominous clouds", "during a thunderstorm", "on a calm evening", "under a full moon"
+        "under a sky filled with heavy clouds", "during a thunderstorm", "on a calm evening", "under a full moon"
     ],
     "night": [
-        "under a full moon", "during a snowstorm", "on a starry night", "during a windy night"
+        "under a full moon", "during a snowstorm", "on a clear night with good visibility", "during a stormy night"
     ]
 };
 
 const reactions = [
-    "were left speechless", "fled the scene in terror", "stood in awe", "were paralyzed with fear",
-    "immediately called the authorities", "could not believe their eyes", "were convinced they had seen something out of this world",
+    "were left confused", "fled the scene in terror", "stood in awe", "were paralyzed with fear",
+    "immediately called the authorities", "could not believe their eyes", "were convinced they had seen something other-worldly",
     "felt an overwhelming sense of dread", "tried to record the event with their phones", "discussed the event for days afterward"
 ];
 
 const descriptions = {
-    "Sighting": {
+    "UAP Sighting": {
         "United States": [
             "a bright light that hovered in the sky for several minutes before disappearing at incredible speed. Video footage was captured by several witnesses and reported to the local news.",
             "a disc-shaped object that descended slowly, emitting a low hum and strange lights. The event was tracked by local air traffic control and later confirmed by radar.",
-            "a UFO emerging from behind a mountain, hovering briefly, then vanishing in a flash. Military jets were scrambled to intercept, but no further evidence was found.",
-            "a glowing orb emerging from the water and shooting straight up into the sky. The object was tracked on sonar by a nearby naval vessel.",
-            "an unknown flying object that performed impossible maneuvers, nearly colliding with a plane. The pilot reported the incident, and it was later confirmed by FLIR camera footage.",
+            "a UAP emerging from within the mountain, hovering briefly, then vanishing in a flash. Military jets were scrambled to intercept, but no further evidence was found.",
+            "a glowing orb emerging from the water and shooting straight up into the sky. The object was tracked on Radar by a nearby naval vessel.",
+            "an unknown flying object that performed impossible manoeuvres, was spotted by a plane. The pilot reported the incident, and it was later confirmed by FLIR camera footage.",
             "a military pilot saw a triangular object while carrying out exercises near Area 51. The object was captured on FLIR camera, and NORAD tracked it on radar."
         ],
         "England": [
-            "a triangular craft silently gliding across the night sky, witnessed by multiple people near the location. Some witnesses managed to take clear photographs, sparking widespread interest.",
+            "a triangular craft silently moving across the night sky, witnessed by multiple people near the location. Some witnesses managed to take clear photographs, sparking widespread interest.",
             "a hovering object emitting beams of light captured on a security camera over the countryside. The footage quickly went viral, leading to an official investigation.",
-            "a UFO splitting into multiple smaller lights that flew off in different directions over the plains. The event was tracked by a military radar station, but no official explanation was provided.",
+            "a UAP splitting into multiple smaller lights that flew off in different directions over the horizon. The event was tracked by a military radar station, but no official explanation was provided.",
             "a military exercise near the North Sea was interrupted by a fast-moving object that appeared on radar and was seen by multiple RAF pilots.",
-            "during a naval operation in the North Atlantic, crew members on a British destroyer witnessed a large, glowing object descend into the sea."
+            "two hikers who spotted a cigar shaped object being pursued by three RAF Typhoons, the hikers were able to capture a photograph of the object which they confirmed they sent to a local journalist however the photographs never made it to their destination."
         ],
         "Scotland": [
-            "a large, glowing object hovering over Loch Ness, causing waves and strange noises. A local fisherman captured video footage, which was later analyzed by experts.",
+            "a large, glowing object hovering over the Loch, it caused waves to appear on the surface and also emanated strange noises. A local fisherman captured video footage, which was later analysed by experts.",
             "an unknown object flying at low altitude near Edinburgh, seen by dozens of people who reported it to the authorities. The object disappeared before military jets could arrive.",
-            "a fast-moving craft tracked by radar near the Isle of Skye, seen by local residents who were left bewildered by the event."
+            "a fast-moving craft tracked by radar near the Isle of Skye, which was seen by local residents who were left confused by the event."
         ],
         "Germany": [
-            "a metallic craft seen flying low over the Black Forest, making no sound. The object was later tracked by a commercial airline pilot who reported it to air traffic control.",
+            "a metallic craft was seen flying low over the Black Forest, making no sound & sending what looked like a beam of light down to the ground. The object was later observed by a commercial airline pilot who reported it to air traffic control.",
             "a large, dark shape moving slowly through the Bavarian Alps, captured on a hiker's GoPro camera. The footage remains unexplained.",
-            "a mysterious craft hovering near Neuschwanstein Castle, seen by tourists and reported to the local police."
+            "a mysterious craft hovering near Neuschwanstein Castle, was seen by tourists and reported to the local police."
         ],
         "Japan": [
-            "a fast-moving object that was seen circling Mount Fuji, leaving a trail of light. The event was captured on multiple cameras and shared widely on social media.",
+            "a fast-moving object that was seen moving in a circle formation near Mount Fuji, leaving a trail of light. The event was captured on multiple cameras and shared widely on social media.",
             "a glowing object hovering over Aokigahara Forest, seen by several hikers who reported strange interference with their electronic devices.",
             "an unknown craft seen over Okinawa, tracked by a military radar station and later confirmed by fighter pilots who were unable to intercept."
         ],
@@ -132,7 +132,7 @@ const descriptions = {
             "a large craft hovering over Santiago, seen by thousands and reported widely in the media. Military jets were scrambled, but the object disappeared before they arrived."
         ]
     },
-    "Abduction": {
+    "UAP Abduction": {
         "United States": [
             "a family was driving through a remote area when a bright light appeared above them, causing their car to lose power. They were beamed up into a hovering craft, and hours later, they woke up miles away with no memory of what happened.",
             "a lone camper in Arizona saw a strange craft descending silently, and moments later, he found himself aboard it, unable to move. He woke up days later in a different state with no recollection of the past three days.",
@@ -184,7 +184,7 @@ const descriptions = {
             "a woman walking in Santiago was lifted into a craft, only to reappear moments later with no recollection of the event."
         ]
     },
-    "Crashed UFO": {
+    "Crashed UAP": {
         "United States": [
             "a large, burning object fell from the sky, crashing into a remote forest in Nevada. The event was tracked by military radar, and a team was dispatched to investigate. Witnesses reported seeing military vehicles arriving at the site shortly after.",
             "a UFO lost control mid-air and crashed into a mountainside in the Mojave Desert, creating a massive explosion. Military personnel were seen at the site, but no official statement was made.",
@@ -285,7 +285,7 @@ const descriptions = {
             "a massive crop circle appeared overnight in a field, featuring intricate designs and strange symbols. The site was visited by hundreds of curious onlookers and was later cordoned off by officials."
         ],
         "England": [
-            "a stunning crop circle formation was discovered near Stonehenge, consisting of interlocking rings and triangles. The event attracted both media attention and a scientific team for investigation.",
+                        "a stunning crop circle formation was discovered near Stonehenge, consisting of interlocking rings and triangles. The event attracted both media attention and a scientific team for investigation.",
             "a large, complex design was found in a barley field, with no footprints or evidence of entry. Several locals reported strange lights in the sky the night before.",
             "a series of circles and lines creating a symbolic pattern were found in a wheat field. The site became a popular tourist attraction, with many speculating about its origins."
         ],
