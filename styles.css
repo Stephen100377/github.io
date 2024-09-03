@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('ufo-background1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.selectors {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background-color: #444;
+    color: grey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#ufoEventDisplay {
+    margin-top: 20px;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+    text-align: left; /* Align text to the left */
+}
